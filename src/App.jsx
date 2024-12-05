@@ -62,7 +62,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Calculadora de Préstamos</h1>
+      <h1>Calcule su Préstamo</h1>
       <div className="calculator">
         <label>
           <b>Monto del Préstamo:</b>
@@ -73,18 +73,25 @@ const App = () => {
             placeholder="Ej. RD$50,000"
             className={errors.loanAmount ? "input-error" : ""}
           />
-          {errors.loanAmount && <p className="error-message">{errors.loanAmount}</p>}
+          {errors.loanAmount && (
+            <p className="error-message">{errors.loanAmount}</p>
+          )}
         </label>
         <label>
           <b>Tasa de Interés Anual (%):</b>
           <input
             type="text"
             value={annualInterestRate}
-            onChange={handleInputChange(setAnnualInterestRate, "annualInterestRate")}
+            onChange={handleInputChange(
+              setAnnualInterestRate,
+              "annualInterestRate"
+            )}
             placeholder="Ej. 5"
             className={errors.annualInterestRate ? "input-error" : ""}
           />
-          {errors.annualInterestRate && <p className="error-message">{errors.annualInterestRate}</p>}
+          {errors.annualInterestRate && (
+            <p className="error-message">{errors.annualInterestRate}</p>
+          )}
         </label>
         <label>
           <b>Plazo del Préstamo (meses):</b>
@@ -95,7 +102,9 @@ const App = () => {
             placeholder="Ej. 24"
             className={errors.loanTerm ? "input-error" : ""}
           />
-          {errors.loanTerm && <p className="error-message">{errors.loanTerm}</p>}
+          {errors.loanTerm && (
+            <p className="error-message">{errors.loanTerm}</p>
+          )}
         </label>
         <button onClick={calculatePayment} disabled={loading}>
           {loading ? <span className="spinner"></span> : "Calcular"}
@@ -105,7 +114,9 @@ const App = () => {
           {loading ? (
             <span className="spinner"></span>
           ) : (
-            <span>{monthlyPayment ? formatNumber(monthlyPayment) : "RD$0"}</span>
+            <span>
+              {monthlyPayment ? formatNumber(monthlyPayment) : "RD$0"}
+            </span>
           )}
         </h2>
       </div>
