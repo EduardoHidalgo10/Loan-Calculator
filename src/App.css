@@ -4,6 +4,7 @@ body {
   margin: 0;
   background-color: #f5f8fa;
   color: #333;
+  border-radius: 20px;
 }
 
 .app-container {
@@ -12,7 +13,7 @@ body {
 }
 
 h1 {
-  color: #186c9b;
+  color: #98a40a;
   margin-bottom: 20px;
   font-size: 2rem;
 }
@@ -32,7 +33,7 @@ label {
   display: block;
   margin: 15px 0 5px;
   font-weight: bold;
-  color: #186c9b;
+  color: #98a40a;
 }
 
 input {
@@ -56,7 +57,7 @@ input {
 }
 
 button {
-  background-color: #186c9b;
+  background-color: #06482c;
   color: white;
   border: none;
   border-radius: 8px;
@@ -73,19 +74,19 @@ button:disabled {
 }
 
 button:hover:not(:disabled) {
-  background-color: #135a7e;
+  background-color: #063f27;
 }
 
 h2 {
   margin-top: 20px;
-  color: #186c9b;
+  color: #98a40a;
   font-size: 1.2rem;
 }
 
 /* Spinner */
 .spinner {
   border: 3px solid #f3f3f3;
-  border-top: 3px solid #186c9b;
+  border-top: 3px solid #98a40a;
   border-radius: 50%;
   width: 16px;
   height: 16px;
