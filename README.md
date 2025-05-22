@@ -1,8 +1,34 @@
-# React + Vite
+# 🧮 Calculadora React – Coopmedcop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una **calculadora financiera interactiva** desarrollada con **React**, como parte de una solución freelance para la cooperativa **Coopmedcop**.  
+Fue integrada en su sitio institucional creado con **WordPress**, permitiendo a los socios simular productos financieros como préstamos y planes de ahorro de forma sencilla y en tiempo real.
 
-Currently, two official plugins are available:
+🔗 Sitio web: [https://coopmedcop.com](https://coopmedcop.com.do)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+### 🛠️ Tecnologías utilizadas
+
+- ReactJS
+- HTML5 / CSS3
+- WordPress (integración con React mediante shortcodes y bloques personalizados)
+- Responsive Design
+
+---
+
+### ✨ Funcionalidades principales
+
+- Simulación de montos, tasas y plazos para productos financieros
+- Resultados instantáneos sin recargar la página
+- Interfaz clara, accesible y adaptada a la identidad visual de Coopmedcop
+- Totalmente responsive y usable desde cualquier dispositivo
+
+---
+
+### 👨‍💻 Autor
+
+Desarrollado por [Eduardo Hidalgo](https://github.com/eduardohidalgo10) como parte de un proyecto freelance para la cooperativa **Coopmedcop**.
+
+---
+
+> Esta calculadora busca brindar al usuario una idea rapida del producto financiero al que accedera.
