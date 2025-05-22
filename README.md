@@ -1,7 +1,7 @@
 # 🧮 Calculadora React – Coopmedcop
 
 Este proyecto es una **calculadora financiera interactiva** desarrollada con **React**, como parte de una solución freelance para la cooperativa **Coopmedcop**.  
-Fue integrada en su sitio institucional creado con **WordPress**, permitiendo a los socios simular productos financieros como préstamos y planes de ahorro de forma sencilla y en tiempo real.
+Fue integrada en su sitio institucional creado con **WordPress**, permitiendo a los usuarios calcular rapidamente el producto financiero al que estarian accediendo en tiempo real.
 
 🔗 Sitio web: [https://coopmedcop.com](https://coopmedcop.com.do)
 
